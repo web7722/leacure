@@ -77,8 +77,25 @@ git reset --hard [돌아갈 커밋hash]
 
 
 ```
-git revert [돌아갈 커밋hash]
+git revert [취소할 커밋hash]
 ```
 
 하게될경우 commit 만 쓸경우 나왓던 내용이 나옵니다.
+
+
+## 3. branch 사용해보기 
+
+브랜치 개념 확실하게 잡기
+
+브랜치 생성하기
+git branch test
+
+브랜치 목록보기
+git branch
+
+브랜치 바꾸기
+git checkout test
+
+브랜치 생성하면서 이동하기
+git checkout -b test2
 
