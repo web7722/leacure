@@ -116,6 +116,8 @@ test 브랜치가 깃헙에 올라간느지 확인한뒤.
 
 git push origin [브랜치] 를 써서 test브랜치도 넣어봅시다.
 
+원격 브랜치 지우기
+git push origin --delete feature/TEST-860
 
 
 # 4. stash 내용 알아보기
@@ -126,3 +128,17 @@ git push origin [브랜치] 를 써서 test브랜치도 넣어봅시다.
 merge 와 rebase 사용해보기
 
 git merge test
+
+
+
+연습과제
+
+게시판
+로그인 
+구현하는데
+github을 활용하여 구현하세요
+
+이때 어지간하면 말하면서 하시면서
+변수명이나 함수명 같은것도 의논하시면 좋아요 
+
+각각 팀장을 정할겁니다.
