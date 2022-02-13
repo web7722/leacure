@@ -31,3 +31,25 @@ git rm -r [file Name] # 원격 저장소 및 로컬 저장소 파일을 삭제
 git rm --cached -r [File Name] # 원격 저장소에 있는 파일 삭제
 ```
 
+git status 를 활용하여 내용을 확인해보시면 더욱좋습니다.
+
+이후 .gitignore 안에서 패턴을 또 아셔야합니다!
+프로젝트 내용마다 무시할 파일이나 또는 폴더가존재합니다.
+저희같은경우 node_module 폴더는 어지간하면 보내면안됩니다.
+그리고 또 package-lock.json 또한 보내면안됩니다.
+
+gitignore 형식은
+
+```
+file.js # 모든 file
+/file.js # 최상위 디렉토리에 있는 file
+*.js # 모든 .js파일
+node_modules # node_modules 라는 파일이름 또는 폴더와 그하위내용들
+
+이정도만 알고넘어가도 괜찮을거에요
+```
+
+## 2. 이전내역으로 돌아가기
+
+
+
