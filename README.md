@@ -123,3 +123,6 @@ git push origin [브랜치] 를 써서 test브랜치도 넣어봅시다.
 
 # 4. branch 합치기 
 
+merge 와 rebase 사용해보기
+
+git merge test
