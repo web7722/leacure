@@ -55,6 +55,9 @@ node_modules # node_modules 라는 파일이름 또는 폴더와 그하위내용
 ```
 git log #활용하여 내가 저장한 히스토리 들을 확인할수있습니다.
 이후 j를 누르면 내릴수있습니다.
+
+좀더 이쁘게 보이는방법은
+git log --all --decorate --oneline --graph
 ```
 
 하지만 이번수업에서는 간단하게 볼수있는 git Graph 를 활용할거에요.
@@ -102,5 +105,21 @@ git checkout -b test2
 브랜치 지우기 
 git branch -d [브랜치명]
 
+test 브랜치와
+master 브랜치에 각각 내요을넣고
 
+commit 하고 Graph를 확인해보자.
+이후 master 브랜치 에서 push를하고
+test 브랜치가 깃헙에 올라간느지 확인한뒤.
+
+안올라간다면
+
+git push origin [브랜치] 를 써서 test브랜치도 넣어봅시다.
+
+
+
+# 4. stash 내용 알아보기
+
+
+# 4. branch 합치기 
 
