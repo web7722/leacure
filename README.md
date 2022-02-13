@@ -99,3 +99,8 @@ git checkout test
 브랜치 생성하면서 이동하기
 git checkout -b test2
 
+브랜치 지우기 
+git branch -d [브랜치명]
+
+
+
